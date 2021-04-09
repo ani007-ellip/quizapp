@@ -1,0 +1,157 @@
+
+body{
+    width:100%;
+    padding-top: 50px;
+}
+* {
+    box-sizing: border-box;
+  }
+.container{
+    background-color: rgb(216, 213, 213);
+    border-radius: 10px;
+}
+.card{
+    width:100%;
+    border-radius: 10px;
+    background-color:rgb(62, 62, 100);
+    color:#fff;
+}
+.ques{
+    padding: 100px 50px;
+}
+.pad{
+    padding:30px 20px;
+}
+.flot{
+    float:right;
+}
+.sub{
+    color:white;
+    float:right;
+}
+.demo{
+    padding:18em;
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+.bg_1{
+    background-image: url('../images/background.jpg');
+    background-size:cover;
+}
+.bg{
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:40em;
+}
+.img{
+    width:100%;
+    height:100%;
+}
+@media only screen and (min-width: 601px) {
+    .bg{
+        height:32em;
+    }
+    .demo{
+        padding:13em 16em ;
+    }
+    .card{
+        width:98%;
+    }
+    .ques{
+        padding: 50px 10px;
+    }
+    .img{
+        width:100%;
+        height:100%;
+    }
+    
+}
+
+@media only screen and (max-width: 2560px) {
+    .bg{
+        background-repeat: no-repeat;
+        height:41em;
+    }
+    .demo{
+        padding:18em 16em ;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .bg{
+        background-repeat: no-repeat;
+        height:38em;
+    }
+    .demo{
+        padding:18em 16em ;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .bg{
+        height:40em;
+    }
+    .demo{
+        padding:18em 16em ;
+    }
+}
+@media only screen and (max-width: 968px) {
+    .bg{
+        height:41em;
+    }
+    .demo{
+        padding:18em 16em ;
+    }
+}
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+    .bg{
+        width:34em;
+        height:50em;
+    }
+    .demo{
+        padding:20em 8em ;
+    }
+    button{
+        width:100%;
+    }
+    .card{
+        width:98%;
+    }
+    .ques{
+        padding: 50px 10px;
+    }
+    .img{
+        width:100%;
+        height:100%;
+    }
+  }
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+ 
